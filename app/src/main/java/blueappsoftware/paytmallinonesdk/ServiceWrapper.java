@@ -39,7 +39,7 @@ public class ServiceWrapper {
         mOkHttpClient = builder.build();
         Gson gson = new GsonBuilder().setLenient().create();
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://mihir74.000webhostapp.com/")
+                .baseUrl("https://demo.000webhostapp.com/")
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .client(mOkHttpClient)
                 .build();
