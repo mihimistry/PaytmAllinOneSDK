@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private String TAG = "MainActivity";
     private ProgressBar progressBar;
     private EditText txnAmount;
-    private String midString = "kyeuPc77738892119309", txnAmountString = "10", orderIdString = "1", txnTokenString = "";
+    private String midString = YOUR_MID_HERE, txnAmountString = "10", orderIdString = "1", txnTokenString = "";
     private Button btnPayNow;
     private Integer ActivityRequestCode = 2;
 
